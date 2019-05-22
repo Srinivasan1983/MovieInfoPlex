@@ -1,0 +1,26 @@
+.video-item {
+  display: table;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  margin: 0 10px 10px 10px;
+  min-width: 230px;
+  padding: 8px;	
+}
+
+.video-item:hover{
+  background-color: #eee;
+}
+
+.video-item .thumbnail {
+  display: table-cell;
+  max-height: 70px;
+}
+
+.video-item .video-title {
+  display: table-cell;
+  font-size: 12px;
+  padding-left: 10px;
+  vertical-align: top;
+  word-break: break-word;
+}
