@@ -13,9 +13,11 @@ const Header = () => {
             </Link>
           </div>
           <ul className="navbar-nav ml-auto text-light d-inline-block">
-            <li className="nav-item d-inline-block mr-4">
-              <i className="fab fa-imdb fa-4x" id="imdb-logo" />
-            </li>
+            <Link to="/">
+              <li className="nav-item d-inline-block mr-4">
+                <i className="fab fa-imdb fa-4x" id="imdb-logo" />
+              </li>
+            </Link>
             <Link to="/youtube">
               <li className="nav-item d-inline-block mr-4">
                 <i className="fab fa-youtube fa-4x" id="youtube-logo" />
